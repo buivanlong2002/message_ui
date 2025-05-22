@@ -131,7 +131,7 @@
     }
 
     function connect() {
-        ws = new WebSocket('ws://localhost:8884/chat'); // Thay bằng ws://your-domain/chat nếu online
+        ws = new WebSocket('wss://message-1-dm3t.onrender.com/chat');
 
         ws.onopen = () => {
             console.log('Kết nối WebSocket thành công');
